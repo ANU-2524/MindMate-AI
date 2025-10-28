@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, Type } from '@google/genai';
-import { ActionType, Quiz, Concept } from '../types';
+import { ActionType, Quiz, Concept } from '../../types';
 
 if (!process.env.API_KEY) {
   throw new Error("API_KEY environment variable not set");

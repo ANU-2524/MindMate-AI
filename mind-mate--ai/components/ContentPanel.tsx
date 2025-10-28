@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ActionType, OutputData } from '../types';
+import { ActionType, OutputData } from '../../types';
 import { Loader } from './Loader';
 import { OutputDisplay } from './OutputDisplay';
 

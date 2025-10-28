@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { ActionType } from '../types';
+import { ActionType } from '../../types';
 import { BookOpenIcon, HelpCircleIcon, ListChecksIcon, FocusIcon, LinkIcon, SpeakerIcon } from './icons';
 
 interface ControlPanelProps {

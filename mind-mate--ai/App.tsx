@@ -1,11 +1,11 @@
 
 import React, { useState, useCallback } from 'react';
-import { ControlPanel } from './components/ControlPanel';
-import { ContentPanel } from './components/ContentPanel';
-import { Header } from './components/Header';
-import { FocusModeOverlay } from './components/FocusModeOverlay';
+import { ControlPanel } from './mind-mate--ai/components/ControlPanel';
+import { ContentPanel } from './mind-mate--ai/components/ContentPanel';
+import { Header } from './mind-mate--ai/components/Header';
+import { FocusModeOverlay } from './mind-mate--ai/components/FocusModeOverlay';
 import { ActionType, Quiz, Concept, OutputData } from './types';
-import { generateContent } from './services/geminiService';
+import { generateContent } from './mind-mate--ai/services/geminiService';
 
 const App: React.FC = () => {
   const [inputText, setInputText] = useState<string>('');

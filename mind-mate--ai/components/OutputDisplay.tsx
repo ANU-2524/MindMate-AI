@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ActionType, Concept, OutputData, Quiz as QuizType } from '../types';
+import { ActionType, Concept, OutputData, Quiz as QuizType } from '../../types';
 import { Quiz } from './Quiz';
 import { marked } from 'marked';
 
