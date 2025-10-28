@@ -1,0 +1,21 @@
+/* Minimal local styles so the extension popup doesn't rely on remote Tailwind CDN.
+   These provide readable colors and layout; they are not a full Tailwind replacement.
+*/
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background: #0f172a; /* similar to bg-gray-900 */
+  color: #f3f4f6; /* similar to text-gray-100 */
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a { color: #93c5fd }
+.container { padding: 1rem; }
+.header { font-weight: 600; font-size: 1.125rem; margin-bottom: 0.5rem }
+.panel { background: #0b1220; border-radius: 8px; padding: 0.75rem; margin-bottom: 0.75rem }
+.btn { background: #2563eb; color: white; padding: 0.375rem 0.75rem; border-radius: 6px; border: none; cursor: pointer }
+.btn:disabled { opacity: 0.6; cursor: default }
+.muted { color: #9ca3af }
